@@ -49,14 +49,18 @@ const SuccessFooter = ()=> {
 
 const FooterContainer = styled.div`
     width: 100%;
-    margin-top: 4rem;
+    margin-top: 12%;
 `;
 
 const FormContainer = styled.form`
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: 40%;
     margin: 0 auto;
+    @media only screen and (max-width: 665px) {
+    width:80%;
+    margin:0 auto;
+}
 `;
 
 const DateLabelContainer = styled.div`
@@ -111,6 +115,7 @@ const Button = styled.div`
     padding: 1rem;
     border-radius: 8px;
     width:100%;
+    cursor: pointer;
 `;
 
 const SuccessBox = styled.div`

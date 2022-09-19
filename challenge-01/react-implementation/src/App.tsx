@@ -24,8 +24,10 @@ function App() {
 export default App
 
 const Main = styled.div`
+  display: flex;
   @media only screen and (min-width: 768px) {
-      display: flex;
-      
+      flex-direction:row;
     }
+    flex-direction: column;
+
 `
